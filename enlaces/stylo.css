@@ -1,4 +1,4 @@
-  *{
+*{
     margin: 0px;
     padding: 0px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -37,7 +37,7 @@ body{
 .navbar{
   width: 90%;
   height: 60px;
-  background-color: white;
+  background:linear-gradient(135deg, #79c2d4, #f75471);
   text-align: center;
   margin: 10px auto;
   text-decoration: none;
@@ -68,3 +68,5 @@ body{
   color: #241811;
   font-weight: bold;
 }
+
+.link{margin: 50px 0px 0px 200px; background-color: azure;}
