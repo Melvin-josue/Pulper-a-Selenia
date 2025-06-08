@@ -1,70 +1,72 @@
-  *{
+  * {
     margin: 0px;
     padding: 0px;
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
 
-body{
+  body {
     background-color: #cdbb93;
-}
+  }
 
-.banner{
-  background:linear-gradient(135deg, #f75471, #79c2d4);
-  color: black;
-  position: relative;
-  padding: 90px;
-  margin: 5px 0;
-  box-shadow: 0 4px 15px rgb(0, 0, 0.2);
-  border-radius: 0 0 40px 40px;  
-  text-align: center;
-}
-.banner .frase {
-  margin-top: 50px;
-  color: black;
-  font-weight: bold;
-  padding: 20px;
-  text-align: center;
-}
+  .banner {
+    background: linear-gradient(135deg, #f75471, #79c2d4);
+    color: black;
+    position: relative;
+    padding: 90px;
+    margin: 5px 0;
+    box-shadow: 0 4px 15px rgb(0, 0, 0.2);
+    border-radius: 0 0 40px 40px;
+    text-align: center;
+  }
 
-.logo {
-  position: absolute;
-  left: 20px;
-  top: 5px;
-  width: 260px;
-  border-radius: 50px;
-}
+  .banner .frase {
+    margin-top: 50px;
+    color: black;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+  }
 
-.navbar{
-  width: 90%;
-  height: 60px;
-  background-color: white;
-  text-align: center;
-  margin: 10px auto;
-  text-decoration: none;
-  border: 1px solid rgb(204, 60, 149);
-  border-radius: 0 0 10px 10px;
-}
+  .logo {
+    position: absolute;
+    left: 20px;
+    top: 5px;
+    width: 260px;
+    border-radius: 50px;
+  }
 
-
-.navbar ul{
-  padding: 10px;
-  width: 98%;
-  height: auto;
-  list-style-type: none;
-  display: flex;
-  justify-content: center;
-
-}
+  .navbar {
+    width: 90%;
+    height: 60px;
+    background: linear-gradient(135deg, #f75471,#79c2d4);
+    text-align: center;
+    margin: 10px auto;
+    text-decoration: none;
+    border: 1px solid rgb(204, 60, 149);
+    border-radius: 0 0 10px 10px;
+  }
 
 
-.navbar ul li{
+  .navbar ul {
+    padding: 10px;
+    width: 98%;
+    height: auto;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+
+  }
+
+
+  .navbar ul li {
     position: relative;
     float: left;
-}
+  }
 
-.navbar ul li a{
-  font-size: 18px;
-  padding: 40px;
-  color: #241811;
-  font-weight: bold;
-}
+  .navbar ul li a {
+    font-size: 18px;
+    padding: 40px;
+    color: #241811;
+    font-weight: bold;
+    text-decoration: none;
+  }
